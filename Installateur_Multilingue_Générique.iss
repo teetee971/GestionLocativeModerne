@@ -1,0 +1,1 @@
+; Script générique d'installateur multilingue
