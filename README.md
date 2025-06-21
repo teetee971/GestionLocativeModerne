@@ -1,10 +1,8 @@
-# Gestion Locative Moderne - HomyGo
-
-**HomyGo** est une solution web pour gérer vos locations saisonnières avec :
-
-- Messagerie IA auto-apprenante
-- Vérification intelligente de documents
-- Galerie photos/vidéos premium
-- Contact direct via formulaire sécurisé
-
-## 🚀 Domaine : https://www.homygo.eu
+# HomyGo Galaxy
+## Contenu du pack
+- `index.html` : Accueil complet avec tous les modules Galaxy
+- `homesitting.html` : Page Home Sitting
+- `voyage.html` : Module Voyage avec affiliation
+- `CNAME` : Domaine homygo.eu
+## Instructions
+Déployer sur GitHub Pages ou ton hébergeur pour `https://homygo.eu`.
