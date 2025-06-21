@@ -1,61 +1,82 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>HomyGo | Locations saisonnières modernes & sécurisées</title>
-  <meta name="description" content="HomyGo - Gérez vos locations saisonnières facilement avec une messagerie IA auto-apprenante et vérification de documents.">
-  <meta property="og:title" content="HomyGo - Location Moderne"/>
-  <meta property="og:description" content="Connectez propriétaires et voyageurs en toute sécurité grâce à notre messagerie IA et nos outils premium."/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://www.homygo.eu"/>
-  <meta property="og:image" content="https://www.homygo.eu/logo.png"/>
-  <style>
-    body { margin:0; font-family:'Segoe UI', sans-serif; background:linear-gradient(135deg,#4FC3F7,#0288D1); color:#fff; text-align:center; }
-    header { padding:60px 20px; }
-    header h1 { font-size:3em; margin:0; }
-    header p { font-size:1.4em; margin:10px auto 30px; max-width:600px; }
-    .cta-button { background:#fff; color:#0288D1; border:none; padding:15px 30px; font-size:1.1em; margin:10px; cursor:pointer; border-radius:5px; text-decoration:none; display:inline-block; }
-    section { padding:50px 20px; }
-    section p { max-width:700px; margin:10px auto; line-height:1.6em; }
-    footer { background:rgba(0,0,0,0.2); padding:20px; font-size:0.9em; }
-    a { color:#fff; text-decoration:underline; }
-    form input, form textarea { display:block; margin:10px auto; padding:10px; width:80%; max-width:400px; border:none; border-radius:5px; }
-    form button { background:#fff; color:#0288D1; border:none; padding:10px 20px; font-weight:bold; cursor:pointer; border-radius:5px; }
-  </style>
+    <meta charset="UTF-8">
+    <title>HomyGo - Location Saisonnière Intelligente</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%%;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+        .video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%%;
+            min-height: 100%%;
+            z-index: -1;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            top: 50%%;
+            transform: translateY(-50%%);
+            background: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        .services {
+            text-align: left;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .button {
+            padding: 10px 20px;
+            background: #00AEEF;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            margin: 10px;
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
 
-  <header>
+<video autoplay muted loop class="video-background">
+    <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
     <h1>HomyGo</h1>
     <p>Plateforme moderne de location saisonnière : messagerie IA auto-apprenante, vérification intelligente et support 24/7.</p>
-    <a href="#services" class="cta-button">Découvrir</a>
-    <a href="#contact" class="cta-button">Contact</a>
-  </header>
-
-  <section id="services">
-    <h2>Nos Services Premium</h2>
-    <p>✔️ Mise en relation propriétaire - locataire</p>
-    <p>✔️ Messagerie IA auto-apprenante</p>
-    <p>✔️ Vérification automatique de faux documents</p>
-    <p>✔️ Galerie photos & vidéos premium</p>
-    <p>✔️ Paiement sécurisé & gestion simplifiée</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>📧 Envoyez-nous un message :</p>
-    <form action="https://formspree.io/f/your_form_id" method="POST">
-      <input type="text" name="name" placeholder="Votre nom" required>
-      <input type="email" name="email" placeholder="Votre email" required>
-      <textarea name="message" placeholder="Votre message" required></textarea>
-      <button type="submit">Envoyer</button>
+    <a href="#contact" class="button">Contact</a>
+    <div class="services">
+        <h2>Nos Services Premium</h2>
+        <ul>
+            <li>✔️ Mise en relation propriétaire - locataire</li>
+            <li>✔️ Messagerie IA auto-apprenante</li>
+            <li>✔️ Vérification automatique de faux documents</li>
+            <li>✔️ Galerie photos & vidéos premium</li>
+            <li>✔️ Paiement sécurisé & gestion simplifiée</li>
+        </ul>
+    </div>
+    <h2 id="contact">Contactez-nous</h2>
+    <form>
+        <input type="text" placeholder="Votre nom" required><br><br>
+        <input type="email" placeholder="Votre email" required><br><br>
+        <textarea placeholder="Votre message" required></textarea><br><br>
+        <button type="submit" class="button">Envoyer</button>
     </form>
-  </section>
-
-  <footer>
-    &copy; 2025 HomyGo. Tous droits réservés | <a href="#">Mentions légales</a>
-  </footer>
+</div>
 
 </body>
 </html>
