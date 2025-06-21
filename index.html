@@ -3,67 +3,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>HomyGo | Locations saisonnières modernes</title>
+  <title>HomyGo | Locations saisonnières modernes & sécurisées</title>
+  <meta name="description" content="HomyGo - Gérez vos locations saisonnières facilement avec une messagerie IA auto-apprenante et vérification de documents.">
+  <meta property="og:title" content="HomyGo - Location Moderne"/>
+  <meta property="og:description" content="Connectez propriétaires et voyageurs en toute sécurité grâce à notre messagerie IA et nos outils premium."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.homygo.eu"/>
+  <meta property="og:image" content="https://www.homygo.eu/logo.png"/>
   <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #4FC3F7, #0288D1);
-      color: #fff;
-      text-align: center;
-    }
-    header {
-      padding: 50px 20px;
-    }
-    header h1 {
-      font-size: 3em;
-      margin: 0;
-    }
-    header p {
-      font-size: 1.5em;
-      margin: 10px 0 30px;
-    }
-    .cta-button {
-      background: #fff;
-      color: #0288D1;
-      border: none;
-      padding: 15px 30px;
-      font-size: 1.2em;
-      cursor: pointer;
-      border-radius: 5px;
-      text-decoration: none;
-    }
-    section {
-      padding: 50px 20px;
-    }
-    footer {
-      background: rgba(0,0,0,0.2);
-      padding: 20px;
-      font-size: 0.9em;
-    }
+    body { margin:0; font-family:'Segoe UI', sans-serif; background:linear-gradient(135deg,#4FC3F7,#0288D1); color:#fff; text-align:center; }
+    header { padding:60px 20px; }
+    header h1 { font-size:3em; margin:0; }
+    header p { font-size:1.4em; margin:10px auto 30px; max-width:600px; }
+    .cta-button { background:#fff; color:#0288D1; border:none; padding:15px 30px; font-size:1.1em; margin:10px; cursor:pointer; border-radius:5px; text-decoration:none; display:inline-block; }
+    section { padding:50px 20px; }
+    section p { max-width:700px; margin:10px auto; line-height:1.6em; }
+    footer { background:rgba(0,0,0,0.2); padding:20px; font-size:0.9em; }
+    a { color:#fff; text-decoration:underline; }
+    form input, form textarea { display:block; margin:10px auto; padding:10px; width:80%; max-width:400px; border:none; border-radius:5px; }
+    form button { background:#fff; color:#0288D1; border:none; padding:10px 20px; font-weight:bold; cursor:pointer; border-radius:5px; }
   </style>
 </head>
 <body>
 
   <header>
     <h1>HomyGo</h1>
-    <p>Votre partenaire de confiance pour une gestion locative moderne et simple</p>
-    <a href="#contact" class="cta-button">Contactez-nous</a>
+    <p>Plateforme moderne de location saisonnière : messagerie IA auto-apprenante, vérification intelligente et support 24/7.</p>
+    <a href="#services" class="cta-button">Découvrir</a>
+    <a href="#contact" class="cta-button">Contact</a>
   </header>
 
-  <section id="about">
-    <h2>À propos</h2>
-    <p>HomyGo connecte propriétaires et voyageurs en toute simplicité. Publiez, gérez et optimisez vos locations saisonnières avec notre solution intuitive et sécurisée.</p>
+  <section id="services">
+    <h2>Nos Services Premium</h2>
+    <p>✔️ Mise en relation propriétaire - locataire</p>
+    <p>✔️ Messagerie IA auto-apprenante</p>
+    <p>✔️ Vérification automatique de faux documents</p>
+    <p>✔️ Galerie photos & vidéos premium</p>
+    <p>✔️ Paiement sécurisé & gestion simplifiée</p>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Pour plus d'informations, écrivez-nous !</p>
-    <p>Email : <a href="mailto:homygo.eucontact@gmail.com" style="color: #fff; text-decoration: underline;">homygo.eucontact@gmail.com</a></p>
+    <p>📧 Envoyez-nous un message :</p>
+    <form action="https://formspree.io/f/your_form_id" method="POST">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
   </section>
 
   <footer>
-    &copy; 2025 HomyGo. Tous droits réservés.
+    &copy; 2025 HomyGo. Tous droits réservés | <a href="#">Mentions légales</a>
   </footer>
 
 </body>
