@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://homygo.eu/sitemap.xml
